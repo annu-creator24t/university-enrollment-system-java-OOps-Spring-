@@ -81,6 +81,7 @@ POST /api/enroll
   }
 }
 
+
 ➤ Get All Students
 GET /api/students
 
