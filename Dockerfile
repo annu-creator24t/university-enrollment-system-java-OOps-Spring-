@@ -3,6 +3,9 @@ WORKDIR /app
 
 COPY . .
 
+# Give execute permission to maven wrapper
+RUN chmod +x mvnw
+
 RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
